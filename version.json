@@ -1,39 +1,10 @@
 {
   "version": "v2.5.6",
-  "patch_type": "encrypted_bundle",
+  "patch_type": "hotpatch",
   "patch_id": "patch_v2_5_6",
   "notes": "Tối ưu toàn bộ hệ thống theo cách của Senior lười biếng nhất team",
-  "timestamp": "2026-10-08 18:53:18",
-  "package_file": "_patches/payloads/patch_v2_5_6.pkg",
-  "package_sha256": "20356c6858105601b2dc5e33264243b0406a4b0e5a5268c8763cf015de8235c4",
-  "package_size_bytes": 41873,
-  "modules": [
-    {
-      "alias": "Image Processing Engine",
-      "type": "binary",
-      "size_bytes": 9603
-    },
-    {
-      "alias": "Batch Task Pipeline",
-      "type": "binary",
-      "size_bytes": 5576
-    },
-    {
-      "alias": "System Compatibility Framework",
-      "type": "binary",
-      "size_bytes": 10997
-    },
-    {
-      "alias": "Security & Verification",
-      "type": "binary",
-      "size_bytes": 2755
-    },
-    {
-      "alias": "Core System Library",
-      "type": "binary",
-      "size_bytes": 2932
-    }
-  ],
+  "timestamp": "2026-10-08 19:30:00",
+  "total_size_bytes": 31863,
   "files": [
     {
       "path": "engine/__init__.py",
@@ -60,5 +31,8 @@
       "sha256": "d171b080cb3c083299a2fb3414c20ba3cf04745a58ee9e2d7b13032a5d7a2f9b",
       "size_bytes": 2755
     }
-  ]
+  ],
+  "package_file": "_patches/payloads/patch_v2_5_6.pkg",
+  "package_sha256": "20356c6858105601b2dc5e33264243b0406a4b0e5a5268c8763cf015de8235c4",
+  "package_size_bytes": 41873
 }
