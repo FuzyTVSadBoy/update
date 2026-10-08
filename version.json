@@ -9,8 +9,8 @@
   "package_size_bytes": 8081,
   "modules": [
     {
-      "alias": "CORE_ALGORITHM_RUNTIME",
-      "type": "ENCRYPTED_BINARY",
+      "alias": "core_runtime",
+      "type": "binary",
       "size_bytes": 17877
     }
   ]
