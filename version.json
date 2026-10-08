@@ -3,10 +3,10 @@
   "patch_type": "hotpatch",
   "patch_id": "patch_v2_5_6",
   "notes": "Tối ưu toàn bộ hệ thống theo cách của Senior lười biếng nhất team",
-  "timestamp": "2026-10-08 19:42:46",
+  "timestamp": "2026-10-08 20:14:23",
   "package_file": "_patches/payloads/patch_v2_5_6.pkg",
-  "package_sha256": "f6157854f7d1c6359243c673a347e39b483d1bf4fdcb430e835cdbf49e476793",
-  "package_size_bytes": 51305,
+  "package_sha256": "85b44f6c2451f7954db362a5fbab4da0336a620779743421e7117664c2a39323",
+  "package_size_bytes": 42385,
   "modules": [
     {
       "alias": "Image Processing Engine",
@@ -31,12 +31,7 @@
     {
       "alias": "Core System Library",
       "type": "binary",
-      "size_bytes": 2932
-    },
-    {
-      "alias": "User Interface Logic",
-      "type": "binary",
-      "size_bytes": 24199
+      "size_bytes": 2843
     }
   ],
   "files": [
@@ -62,13 +57,8 @@
     },
     {
       "path": "engine/__init__.py",
-      "sha256": "82bb1d391d80134bf9c0d4cda883ad5b527f54ce88f2fa281576fc4a68f11dd5",
-      "size_bytes": 2932
-    },
-    {
-      "path": "ui/app.js",
-      "sha256": "d0d0f2a6a94f34261dc9ccee87af91394a9c4765c107dfbde3bf074d184ad23c",
-      "size_bytes": 24199
+      "sha256": "cddbd9ddbd7bcdaa8779ba9e477f67d06daf62b4b6155189d1d244b23e632b29",
+      "size_bytes": 2843
     }
   ]
 }
