@@ -1,0 +1,36 @@
+# PROPRIETARY SOURCE CODE (Never commit to public update CDN repository)
+engine/
+ui/
+bin/
+*.py
+*.spec
+*.bat
+.github/
+
+# Python & PyInstaller Build Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec.bak
+
+# PyInstaller Output Folders
+build/
+dist/
+
+# Temporary User Media & Outputs
+temp_uploads/
+_clean/
+*.exe
+*.zip
+*.7z
+
+# Hot-Patch local staging & backups
+_patches/backups/
+_patches/staging/
+_patches/patch_manifest.json
+
+# OS Artifacts
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

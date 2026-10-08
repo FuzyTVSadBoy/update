@@ -1,0 +1,17 @@
+{
+  "version": "v2.5.2",
+  "patch_type": "encrypted_bundle",
+  "patch_id": "patch_v2_5_2",
+  "notes": "Bản vá v2.5.2: Khử triệt để lỗi trôi lệch watermark trên ảnh hoạt hình nét đậm (JFIF/1376x768)",
+  "timestamp": "2026-10-08 14:01:05",
+  "package_file": "_patches/payloads/patch_v2_5_2.pkg",
+  "package_sha256": "909e046f46360cdab86de1b1858eeca634ef2f2fdc9b6489cc3c5a6ad7a82918",
+  "package_size_bytes": 8081,
+  "modules": [
+    {
+      "alias": "CORE_ALGORITHM_RUNTIME",
+      "type": "ENCRYPTED_BINARY",
+      "size_bytes": 17877
+    }
+  ]
+}
