@@ -3,10 +3,10 @@
   "patch_type": "hotpatch",
   "patch_id": "patch_v2_5_6",
   "notes": "Tối ưu toàn bộ hệ thống theo cách của Senior lười biếng nhất team",
-  "timestamp": "2026-10-08 19:34:52",
+  "timestamp": "2026-10-08 19:42:46",
   "package_file": "_patches/payloads/patch_v2_5_6.pkg",
-  "package_sha256": "80d14e3bb251d2224184e2dafe01b28a3697be798f0f18bb9efc4f2dfc33355d",
-  "package_size_bytes": 42301,
+  "package_sha256": "f6157854f7d1c6359243c673a347e39b483d1bf4fdcb430e835cdbf49e476793",
+  "package_size_bytes": 51305,
   "modules": [
     {
       "alias": "Image Processing Engine",
@@ -21,7 +21,7 @@
     {
       "alias": "System Compatibility Framework",
       "type": "binary",
-      "size_bytes": 11307
+      "size_bytes": 11383
     },
     {
       "alias": "Security & Verification",
@@ -32,33 +32,43 @@
       "alias": "Core System Library",
       "type": "binary",
       "size_bytes": 2932
+    },
+    {
+      "alias": "User Interface Logic",
+      "type": "binary",
+      "size_bytes": 24199
     }
   ],
   "files": [
     {
       "path": "runtime/k_img_0x9a4f.dat",
-      "sha256": "9546b3fe17af205d5e99496668b383dc3eb5dbbbb08cfd975b0b6fc55ed32f7f",
+      "sha256": "7dbdf10aff3d44ad8a377b06cb4bc0f84d23e14de05d37f731736ac22eca4066",
       "size_bytes": 9603
     },
     {
       "path": "runtime/k_orc_0x3e1b.dat",
-      "sha256": "1e1dfe7543ce279797892d25c1423819c805837f93e771d0695d18494a90e4d7",
+      "sha256": "5a748c80a8e4c3051a6e5970453c844a3b2c07fe51822edaaf533111567c8e09",
       "size_bytes": 5576
     },
     {
       "path": "runtime/k_upd_0x7c8a.dat",
-      "sha256": "fe04b738be8976259684d817f97e29477e29020e04b8e1a6000d19b4be5def1c",
-      "size_bytes": 11307
+      "sha256": "337e60dec68a37e3890bb9e24ec4f8b28a6c350be71a36551aaddc54080778f5",
+      "size_bytes": 11383
     },
     {
       "path": "runtime/k_sec_0x5f2d.dat",
-      "sha256": "683843dffccfe0a4faf4ea078253e57285535a903571f224c96e0e22c125eb5e",
+      "sha256": "7fc236a0ad539ab6cdad7f26690ed2c4f00e7c1e7d59308b1c5150db1c6171ed",
       "size_bytes": 2755
     },
     {
       "path": "engine/__init__.py",
       "sha256": "82bb1d391d80134bf9c0d4cda883ad5b527f54ce88f2fa281576fc4a68f11dd5",
       "size_bytes": 2932
+    },
+    {
+      "path": "ui/app.js",
+      "sha256": "d0d0f2a6a94f34261dc9ccee87af91394a9c4765c107dfbde3bf074d184ad23c",
+      "size_bytes": 24199
     }
   ]
 }
