@@ -1,17 +1,17 @@
 {
-  "version": "v2.5.6",
+  "version": "v2.5.7",
   "patch_type": "hotpatch",
-  "patch_id": "patch_v2_5_6",
-  "notes": "Tối ưu toàn bộ hệ thống theo cách của Senior lười biếng nhất team",
-  "timestamp": "2026-10-08 20:14:23",
-  "package_file": "_patches/payloads/patch_v2_5_6.pkg",
-  "package_sha256": "85b44f6c2451f7954db362a5fbab4da0336a620779743421e7117664c2a39323",
-  "package_size_bytes": 42385,
+  "patch_id": "patch_v2_5_7",
+  "notes": "Nâng cấp thuật toán AI khôi phục nét vẽ & xử lý sạch tuyệt đối watermark tranh 2D/cartoon",
+  "timestamp": "2026-10-08 21:28:00",
+  "package_file": "_patches/payloads/patch_v2_5_7.pkg",
+  "package_sha256": "be3dd7bee7f37a9f1f0cea93721163053d4c04331de22270f0efe87bba08fe37",
+  "package_size_bytes": 43305,
   "modules": [
     {
       "alias": "Image Processing Engine",
       "type": "binary",
-      "size_bytes": 9603
+      "size_bytes": 10243
     },
     {
       "alias": "Batch Task Pipeline",
@@ -37,22 +37,22 @@
   "files": [
     {
       "path": "runtime/k_img_0x9a4f.dat",
-      "sha256": "7dbdf10aff3d44ad8a377b06cb4bc0f84d23e14de05d37f731736ac22eca4066",
-      "size_bytes": 9603
+      "sha256": "6a38df625f85365894a7c6dff797db3f3599e412524906ea9e529bc0f7dc89cb",
+      "size_bytes": 10243
     },
     {
       "path": "runtime/k_orc_0x3e1b.dat",
-      "sha256": "5a748c80a8e4c3051a6e5970453c844a3b2c07fe51822edaaf533111567c8e09",
+      "sha256": "2158466b038d6bc1dd3c28f9d939b42846afbbb6dedd36c4278fa18bd684dbcd",
       "size_bytes": 5576
     },
     {
       "path": "runtime/k_upd_0x7c8a.dat",
-      "sha256": "337e60dec68a37e3890bb9e24ec4f8b28a6c350be71a36551aaddc54080778f5",
+      "sha256": "17899ce32f500cc4b05b4162a506aed354477179f2069a34990e95e3844d54ba",
       "size_bytes": 11383
     },
     {
       "path": "runtime/k_sec_0x5f2d.dat",
-      "sha256": "7fc236a0ad539ab6cdad7f26690ed2c4f00e7c1e7d59308b1c5150db1c6171ed",
+      "sha256": "cde977cba5195cfb138101e25d6a40374399dec9738f0737654dc0043258cbf4",
       "size_bytes": 2755
     },
     {
