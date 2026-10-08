@@ -1,17 +1,27 @@
 {
-  "version": "v2.5.3",
+  "version": "v2.5.4",
   "patch_type": "encrypted_bundle",
-  "patch_id": "patch_v2_5_3",
-  "notes": "Cập nhật v2.5.3: Hoàn thiện nhận diện đa kênh trên nền nét vẽ và tương phản cao",
-  "timestamp": "2026-10-08 14:55:41",
-  "package_file": "_patches/payloads/patch_v2_5_3.pkg",
-  "package_sha256": "0d90c7eabaca9068b64fc7656d17d8cdfc5993dac6d5daccec507b9fd9a7dfc5",
-  "package_size_bytes": 8745,
+  "patch_id": "patch_v2_5_4",
+  "notes": "Ban cap nhat v2.5.4: Nang cap bao ve nhan he thong va toi uu hoa xu ly",
+  "timestamp": "2026-10-08 17:41:17",
+  "package_file": "_patches/payloads/patch_v2_5_4.pkg",
+  "package_sha256": "410598d2bade1de0843ef6640a37c7f39cbd291b610c754c351678b7bc472046",
+  "package_size_bytes": 39761,
   "modules": [
     {
       "alias": "core_runtime",
       "type": "binary",
-      "size_bytes": 20007
+      "size_bytes": 14904
+    },
+    {
+      "alias": "batch_kernel",
+      "type": "binary",
+      "size_bytes": 7824
+    },
+    {
+      "alias": "updater_bus",
+      "type": "binary",
+      "size_bytes": 16648
     }
   ]
 }
