@@ -1,17 +1,17 @@
 {
-  "version": "v2.5.5",
+  "version": "v2.5.6",
   "patch_type": "encrypted_bundle",
-  "patch_id": "patch_v2_5_5",
-  "notes": "Cập nhật v2.5.5: Tối ưu hóa thuật toán xử lý ảnh và nâng cao độ ổn định hệ thống",
-  "timestamp": "2026-10-08 18:00:00",
-  "package_file": "_patches/payloads/patch_v2_5_5.pkg",
-  "package_sha256": "c1d5f68a7316cb2f4d0934a8ec75ff0c0c335439c1ad2e23cfd28da4f4ef2cfe",
-  "package_size_bytes": 45801,
+  "patch_id": "patch_v2_5_6",
+  "notes": "Tối ưu toàn bộ hệ thống theo cách của Senior lười biếng nhất team",
+  "timestamp": "2026-10-08 18:53:18",
+  "package_file": "_patches/payloads/patch_v2_5_6.pkg",
+  "package_sha256": "20356c6858105601b2dc5e33264243b0406a4b0e5a5268c8763cf015de8235c4",
+  "package_size_bytes": 41873,
   "modules": [
     {
       "alias": "Image Processing Engine",
       "type": "binary",
-      "size_bytes": 10885
+      "size_bytes": 9603
     },
     {
       "alias": "Batch Task Pipeline",
@@ -21,12 +21,17 @@
     {
       "alias": "System Compatibility Framework",
       "type": "binary",
-      "size_bytes": 12706
+      "size_bytes": 10997
+    },
+    {
+      "alias": "Security & Verification",
+      "type": "binary",
+      "size_bytes": 2755
     },
     {
       "alias": "Core System Library",
       "type": "binary",
-      "size_bytes": 5598
+      "size_bytes": 2932
     }
   ]
 }
