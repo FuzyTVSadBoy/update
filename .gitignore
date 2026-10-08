@@ -1,5 +1,8 @@
 # PROPRIETARY SOURCE CODE (Never commit to public update CDN repository)
 engine/
+runtime/
+_clean_engine_src/
+tools/
 ui/
 bin/
 *.py
