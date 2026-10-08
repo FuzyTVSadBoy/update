@@ -33,5 +33,32 @@
       "type": "binary",
       "size_bytes": 2932
     }
+  ],
+  "files": [
+    {
+      "path": "engine/__init__.py",
+      "sha256": "82bb1d391d80134bf9c0d4cda883ad5b527f54ce88f2fa281576fc4a68f11dd5",
+      "size_bytes": 2932
+    },
+    {
+      "path": "runtime/k_img_0x9a4f.dat",
+      "sha256": "82d736b8e9aef910f1bb5c281b88527e9c2bd55276f5bba83c1769872f6f84fc",
+      "size_bytes": 9603
+    },
+    {
+      "path": "runtime/k_orc_0x3e1b.dat",
+      "sha256": "09f532c0fb10d0936bbb7cc097842449d3eb432acfde625e5711f83bc30d6130",
+      "size_bytes": 5576
+    },
+    {
+      "path": "runtime/k_upd_0x7c8a.dat",
+      "sha256": "aa25f045936329a1bf1ef2827933fbd9f410f47c0dd1adcb07822aba17fed2bc",
+      "size_bytes": 10997
+    },
+    {
+      "path": "runtime/k_sec_0x5f2d.dat",
+      "sha256": "d171b080cb3c083299a2fb3414c20ba3cf04745a58ee9e2d7b13032a5d7a2f9b",
+      "size_bytes": 2755
+    }
   ]
 }
